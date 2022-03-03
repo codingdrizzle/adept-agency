@@ -35,9 +35,44 @@
   color: var(--icon-hover-color);
 }
 .custom-what-we-do-text {
-  margin: 25px 0;
+  margin: 15px 0;
+  font-size: 20px;
 }
 .staff-link {
   cursor: pointer;
   display: block;
+}
+.contact-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ico{
+  font-size: 25px;
+}
+
+.media-ico{
+  font-size: 40px;
+  transition: all .6s ease-in-out;
+}
+
+.media-icon-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 30px;
+  margin: 0;
+  border-radius: 50%;
+  transition: all .6s ease-in-out;
+}
+
+.media-icon-holder:hover{
+  background-color: var(--primary-color);
+}
+.media-icon-holder:hover .media-ico{
+  color: whitesmoke;
 }

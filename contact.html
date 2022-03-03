@@ -16,7 +16,8 @@ Author URL: http://w3layouts.com
   <!-- google fonts -->
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
-  <!-- Template CSS -->
+  <!-- My custom css -->
+  <link rel="stylesheet" href="./assets/css/custom-styles.css">
 </head>
 
 <body>
@@ -128,20 +129,19 @@ Author URL: http://w3layouts.com
                   <label for="w3lMessage">Message(Required)*</label>
                   <textarea placeholder="" name="message" id="w3lMessage" required ></textarea>
                 </div>
-                <div class="form-submit text-right">
-                  <input type="submit" class="btn btn-style btn-primary" value="Submit Message">
-                    <!-- <button type="submit" class="btn btn-style btn-primary">Submit Message</button> -->
-                    <!-- <input type="hidden" name="_next" value="contact.html"> -->
-                    <input type="hidden" name="_subject" value="New form submission from Adept Agency Customer">
-                    <input type="text" name="_honey" style="display:none">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_autoresponse" value="Hello Dear Customer, Thank you for submitting to us a form. We are Adept Agency, how may we help you? Please contact +233550906616/+233202906983 for your business products. THANK YOU!...">
-                  </div>
+                <div class="form-submit text-center">
+                    <button type="submit" class="btn btn-style btn-primary">Submit Message</button>
+                </div>
+                <input type="hidden" name="_next" value="http://localhost:5500/contact.html">
+                <input type="hidden" name="_subject" value="New form submission from Adept Agency Customer">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_autoresponse" value="Hello Dear Customer, Thank you for submitting to us a form. We are Adept Agency, how may we help you? Please contact +233550906616/+233202906983 for your business products. THANK YOU!...">
               </form>
             </div>
             <div class="map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001161.424489281!2d-78.01909140705047!3d42.72866436845163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sin!4v1570786994395!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.033098210028!2d-2.3451538855481866!3d7.350180015040539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdac92a170803d7%3A0x6b48d01bcca4224a!2sUniversity%20of%20Energy%20and%20Natural%20Resources!5e0!3m2!1sen!2sgh!4v1646087947829!5m2!1sen!2sgh"
                 frameborder="0" allowfullscreen=""></iframe>
             </div>
           </div>
@@ -152,25 +152,32 @@ Author URL: http://w3layouts.com
           <div class="d-grid contact pt-lg-4">
             <div class="contact-info-left d-grid text-left">
               <div class="contact-info mt-4">
-                <h4>London Office</h4>
-                <p class="mb-3"><label>Address: </label> London, LY-90814 Hill Station 2nd Street</p>
-                <p class="mb-3"><label>Email : </label> <a href="mailto:homish@email.com" class="email">homish@email.com</a></p>
-                <p class="mb-3"><label>Phone : </label> <a href="tel:+1-2345-678-11">+1-2345-678-11</a></p>
-                 <p class="mb-3"><label>Hours : </label> Mon-Fri: 8am – 7pm</p>
+                <h4>Contact Lines</h4>
+                <p class="mb-3 contact-item"><span class="fa fa-phone mr-3 ico"></span><span>+233 54 314 3537</span></p>
+                <p class="mb-3 contact-item"><span class="fa fa-phone mr-3 ico"></span><span>+233 55 090 6616</span></p>
+                <p class="mb-3 contact-item"><span class="fa fa-phone mr-3 ico"></span><span>+233 54 579 7897</span></p>
+                <p class="mb-3 contact-item"><span class="fa fa-phone mr-3 ico"></span><span>+233 20 290 6983</span></p>
               </div>
               <div class="contact-info mt-4">
-                <h4>Newyork Office</h4>
-                <p class="mb-3"><label>Address: </label> Newyork, NY-90814 Hill Station 3rd Street</p>
-                <p class="mb-3"><label>Email : </label> <a href="mailto:homish@email.com" class="email">homish@email.com</a></p>
-                <p class="mb-3"><label>Phone : </label> <a href="tel:+1-2345-678-11">+1-2345-678-11</a></p>
-                 <p class="mb-3"><label>Hours : </label> Mon-Fri: 8am – 7pm</p>
+                <h4>Location</h4>
+                <p class="mb-3"><span class="mr-3"><img src="./assets/images/flag.png" alt=""></span><span>Ghana</span></p>              
+                <p class="mb-3"><span class="fa fa-location mr-3 ico"></span><span>Bono Region</span></p>              
+                <p class="mb-3"><span class="fa fa-location mr-3 ico"></span><span>Sunyani</span></p>              
               </div>
               <div class="contact-info mt-4">
-                <h4>Berlin Office</h4>
-                <p class="mb-3"><label>Address: </label> Berlin, BY-90814 Hill Station 4th Street</p>
-                <p class="mb-3"><label>Email : </label> <a href="mailto:homish@email.com" class="email">homish@email.com</a></p>
-                <p class="mb-3"><label>Phone : </label> <a href="tel:+1-2345-678-11">+1-2345-678-11</a></p>
-                 <p class="mb-3"><label>Hours : </label> Mon-Fri: 8am – 7pm</p>
+                <h4>Social Meida</h4>
+                <div style="display: flex; flex-direction: row;justify-content: space-evenly;">
+                  <a href=""><p class="mb-3 media-icon-holder"><span class="fa fa-linkedin media-ico" title="Official @AdeptAgency"></span></p></a>
+                  <a href=""><p class="mb-3 media-icon-holder"><span class="fa fa-instagram media-ico" title="See interesting photos and videos from us"></span></p></a>
+                </div>
+                <div style="display: flex; flex-direction: row;justify-content: space-evenly;">
+                  <a href=""><p class="mb-3 media-icon-holder"><span class="fa fa-twitter media-ico" title="Read tweets from AdeptAgency"></span></p></a>
+                  <a href=""><p class="mb-3 media-icon-holder"><span class="fa fa-facebook media-ico" title="Let's meet on Facebook"></span></p></a>
+                </div>
+                <div style="display: flex; flex-direction: row;justify-content: space-evenly;">
+                  <a href=""><p class="mb-3 media-icon-holder"><span class="fa fa-whatsapp media-ico" title="Send us a message on Whatsapp"></span></p></a>
+                  <a href=""><p class="mb-3 media-icon-holder"><span class="fa fa-whatsapp media-ico" title="Send us a message on Whatsapp"></span></p></a>
+                </div>
               </div>
             </div>
           </div>
