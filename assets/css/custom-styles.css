@@ -54,7 +54,7 @@
 }
 
 .media-ico{
-  font-size: 40px;
+  font-size: 30px;
   transition: all .6s ease-in-out;
 }
 
@@ -62,9 +62,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
-  padding: 30px;
+  width: 40px;
+  height: 40px;
+  padding: 25px;
   margin: 0;
   border-radius: 50%;
   transition: all .6s ease-in-out;
@@ -76,3 +76,16 @@
 .media-icon-holder:hover .media-ico{
   color: whitesmoke;
 }
+
+/* .about-bg{
+  background-image: linear-gradient(to right, rgba(255, 98, 26, 0.6), rgba(255, 255, 255, 0.6));
+} */
+
+.container-bg{
+  background-image: linear-gradient(to right, rgba(0, 9, 63, 0.7), rgba(168, 81, 0, 0.6)),url('../images/banner3.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  /* linear-gradient(to right, rgba(255, 0, 0, 0.68), rgba(0, 0, 255, 0.45)) */
