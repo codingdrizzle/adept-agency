@@ -4,7 +4,6 @@ Author URL: http://w3layouts.com
 -->
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -16,10 +15,9 @@ Author URL: http://w3layouts.com
   <!-- google fonts -->
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
-  <!-- Template CSS -->
+  <!-- Custom Styles CSS -->
   <link rel="stylesheet" href="./assets/css/custom-styles.css">
 </head>
-
 <body>
   <!--header-->
   <header id="site-header" class="fixed-top">
@@ -51,7 +49,9 @@ Author URL: http://w3layouts.com
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
@@ -220,35 +220,42 @@ Author URL: http://w3layouts.com
           <div class="cwp4-text col-lg-8 mb-lg-0 mb-5">
             <div class="row">
               <div class="cwp4-image col-md-6 col-lg-3">
-                <div class="grids4-info">
-                  <a href="#"><img src="assets/images/services-images/web-dev.png" class="img-fluid" alt=""></a>
-                  <div class="info-bg">
-                    <h5><a href="#">Website Development</a></h5>
+                <div class="card custom-card">
+                  <div class="card-body">
+                    <span class="custom-what-we-do-icon-box">
+                      <i class="fa fa-laptop-o custom-what-we-do-icon"></i>
+                    </span>
+                    <p style="font-size: 15px;">Web Development</p>
+                  </div>
+                </div>
+            </div>
+            <div class="cwp4-image col-md-6 col-lg-3">
+              <div class="card custom-card">
+                  <div class="card-body">
+                    <span class="custom-what-we-do-icon-box">
+                      <i class="fa fa-mobile custom-what-we-do-icon"></i>
+                    </span>
+                    <p style="font-size: 15px;">Mobile-App Development</p>
                   </div>
               </div>
             </div>
             <div class="cwp4-image col-md-6 col-lg-3">
-              <div class="grids4-info">
-                <a href="#"><img src="assets/images/services-images/mobile-app.jpg" class="img-fluid" alt=""></a>
-                <div class="info-bg">
-                  <h5><a href="#">Mobile App Development</a></h5>
+              <div class="card custom-card">
+                <div class="card-body">
+                  <span class="custom-what-we-do-icon-box">
+                    <i class="fa fa-palette custom-what-we-do-icon"></i>
+                  </span>
+                  <p style="font-size: 15px;">Graphic Design</p>
                 </div>
               </div>
             </div>
-
             <div class="cwp4-image col-md-6 col-lg-3">
-              <div class="grids4-info">
-                <a href="#"><img src="assets/images/services-images/graphic-desgn.jpg" class="img-fluid" alt=""></a>
-                <div class="info-bg">
-                  <h5><a href="#">Graphic Design</a></h5>
-                </div>
-            </div>
-            </div>
-            <div class="cwp4-image col-md-6 col-lg-3">
-              <div class="grids4-info">
-                <a href="#"><img src="assets/images/services-images/ui-ux.png" class="img-fluid" alt=""></a>
-                <div class="info-bg">
-                  <h5><a href="#">UI/UX Design</a></h5>
+              <div class="card custom-card">
+                <div class="card-body">
+                  <span class="custom-what-we-do-icon-box">
+                    <i class="fa fa-chart custom-what-we-do-icon"></i>
+                  </span>
+                  <p style="font-size: 15px;">UI/UX Design</p>
                 </div>
               </div>
             </div>
@@ -331,7 +338,7 @@ Author URL: http://w3layouts.com
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!--//grids2-->
 
   <!-- testimonials -->
@@ -499,6 +506,7 @@ Author URL: http://w3layouts.com
                     <li><a href="about.html">About Company</a></li>
                     <li><a href="about.html">Our Team</a></li>
                     <li><a href="services.html">Our Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                   </ul>
                 </div>
                 <div class="col-md-4 column mt-md-0 mt-4">

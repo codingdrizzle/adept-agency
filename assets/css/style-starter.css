@@ -15941,8 +15941,7 @@ a.hnys-title:hover {
   font-weight: normal;
 }
 
-.w3l-how-grids-3 .grid-bg1 {
-  background: url(../images/banner2.jpg) no-repeat center;
+.w3l-how-grids-3 .grid-bg1, .grid-bg2, .grid-bg3, .grid-bg4, .grid-bg5 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15954,66 +15953,26 @@ a.hnys-title:hover {
   align-content: end;
   position: relative;
   z-index: 1;
+}
+
+.w3l-how-grids-3 .grid-bg1 {
+  background: url(../images/projects/life-spring-chapel.png) no-repeat center;
 }
 
 .w3l-how-grids-3 .grid-bg2 {
-  background: url(../images/banner4.jpg) no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  padding: 50px 30px;
-  min-height: 300px;
-  display: grid;
-  align-content: end;
-  position: relative;
-  z-index: 1;
+  background: url(../images/projects/madina-trans.png) no-repeat center;
 }
 
 .w3l-how-grids-3 .grid-bg3 {
-  background: url(../images/g1.jpg) no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  padding: 50px 30px;
-  min-height: 300px;
-  display: grid;
-  align-content: end;
-  position: relative;
-  z-index: 1;
+  background: url(../images/projects/hsrcag.png) no-repeat center;
 }
 
 .w3l-how-grids-3 .grid-bg4 {
   background: url(../images/g2.jpg) no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  padding: 50px 30px;
-  min-height: 300px;
-  display: grid;
-  align-content: end;
-  position: relative;
-  z-index: 1;
 }
 
 .w3l-how-grids-3 .grid-bg5 {
   background: url(../images/g3.jpg) no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  padding: 50px 30px;
-  min-height: 300px;
-  display: grid;
-  align-content: end;
-  position: relative;
-  z-index: 1;
 }
 
 .w3l-how-grids-3 .margin-top {
