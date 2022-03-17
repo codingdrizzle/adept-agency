@@ -2796,7 +2796,6 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: var(--primary-color);
   border-color: var(--primary-color);
-  box-shadow: 0 0 0 0.2rem rgba(255, 98, 26, 0.69);
 }
 
 .btn-primary:focus,
@@ -2804,7 +2803,6 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: var(--primary-color);
   border-color: var(--primary-color);
-  box-shadow: 0 0 0 0.2rem rgba(255, 98, 26, 0.69);
 }
 
 .btn-primary.disabled,
@@ -14098,8 +14096,8 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary-color: #ff621a;
-  --secondary-color: #ff5100;
+  --primary-color: #00aeef ;
+  --secondary-color: #00aeef;
   --font-color: #696969;
   --bg-color: #fff;
   --heading-color: #231f20;
@@ -14112,11 +14110,11 @@ a.text-dark:focus {
   --iframe-filter: grayscale(0%);
   --widget-bg: #231f20;
   --icon-color: #fff;
-  --icon-hover-color: #ff621a;
+  --icon-hover-color: #00aeef;
 }
 
 [data-theme="dark"] {
-  --primary-color: #ff621a;
+  --primary-color: #00aeef;
   --secondary-color: #273c66;
   --font-color: #afafaf;
   --bg-color: #0b0d0e;
@@ -14629,7 +14627,7 @@ header {
   padding: 0;
   font-size: 34px;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--logo-color);
   font-family: "Allerta Stencil", sans-serif;
 }
